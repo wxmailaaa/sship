@@ -34,6 +34,5 @@ backend = systemd
 EOF
 
 systemctl restart fail2ban
-sleep 5
 # 输出完成消息
 echo "fail2ban自动化脚本执行完成"
